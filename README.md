@@ -26,12 +26,15 @@ This project is aimed at helping **farmers, researchers, meteorologists, and stu
 ---
 
 ## 📂 Project Structure
+```plaintext
 Rainfall-Prediction-Using-ML/
+│
 │── app.py # Main Streamlit app
 │── model.pkl # Trained ML model
 │── requirements.txt # Dependencies
 │── README.md # Documentation
 │── Rainfall.csv # Data used for training
+```
 
 
 ---
@@ -42,8 +45,9 @@ Rainfall-Prediction-Using-ML/
 ```bash
 git clone https://github.com/YOUR-USERNAME/Rainfall-Prediction-Using-ML.git
 cd Rainfall-Prediction-Using-ML
-
+```
 2️⃣ Create & activate virtual environment (recommended)
+```bash
 # Windows
 python -m venv venv
 venv\Scripts\activate
@@ -51,62 +55,60 @@ venv\Scripts\activate
 # Mac/Linux
 python3 -m venv venv
 source venv/bin/activate
-
+```
 3️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 4️⃣ Run the Streamlit app
+```bash
 streamlit run app.py
+```
 
-
-📊 Input Parameters
+## 📊 Input Parameters
 
 The app takes the following inputs:
-
-🌡️ Max Temperature
-💧 Humidity
-🌥️ Cloud Cover
-🌬️ Wind Speed
-☀️ Sunshine Hours
-📉 Pressure
-🌧️ Rainfall (previous records)
-
-📸 Screenshots
+- 🌡️ **Max Temperature**
+- 💧 **Humidity**
+- 🌥️ **Cloud Cover**
+- 🌬️ **Wind Speed**
+- ☀️ **Sunshine Hours**
+- 📉 **Pressure**
+- 🌧️ **Rainfall (previous records)**
 
 
-🔧 Technologies Used
-
-Python 🐍
-Streamlit (for Web App UI)
-Scikit-learn (ML Model)
-Pandas & Numpy (Data Processing)
-Matplotlib/Seaborn (Data Visualization)
-
-📈 Future Improvements
-
-🔹 Add real-time weather API integration
-🔹 Deploy app on Streamlit Cloud / Heroku / AWS
-🔹 Enhance model with deep learning (LSTM for time-series)
-🔹 Mobile-friendly responsive UI
+## 📸 Screenshots
+<img width="1894" height="926" alt="Screenshot 2025-08-26 033451" src="https://github.com/user-attachments/assets/6aa63005-d762-4ae7-a91f-13f6e8586b74" />
 
 
-🤝 Contribution
+## 🔧 Technologies Used
 
+- Python 🐍
+- Streamlit (for Web App UI)
+- Scikit-learn (ML Model)
+- Pandas & Numpy (Data Processing)
+- Matplotlib/Seaborn (Data Visualization)
+
+## 📈 Future Improvements
+
+- Add real-time weather API integration
+- Deploy app on Streamlit Cloud / Heroku / AWS
+- Enhance model with deep learning (LSTM for time-series)
+- Mobile-friendly responsive UI
+
+## 🤝 Contribution
+```plain text
 Contributions are welcome! Follow these steps:
 Fork this repo 🍴
 Create a new branch (feature-xyz)
 Commit changes (git commit -m 'Add new feature')
 Push to branch (git push origin feature-xyz)
 Create a Pull Request
+```
+## 📬 Contact
 
-📜 License
+- 👨‍💻 **Developer:** Ayush Raj
+- **LinkedIn** : https://www.linkedin.com/in/ayussh-raj/
+- 🔗: ayussh-portfolio.vercel.app
+- 📧 **Email**: rajaayushwow0@example.com
 
-This project is licensed under the MIT License. See LICENSE
-file for details.
-
-📬 Contact
-
-👨‍💻 Developer: Ayush Raj
-🔗 LinkedIn : https://www.linkedin.com/in/ayussh-raj/
-🔗: ayussh-portfolio.vercel.app
-📧 Email: rajaayushwow0@example.com
