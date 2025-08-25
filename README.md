@@ -112,7 +112,7 @@ Create a Pull Request
 
 - 👨‍💻 **Developer:** Ayush Raj
 - **LinkedIn** : https://www.linkedin.com/in/ayussh-raj/
-- 🔗: ayussh-portfolio.vercel.app
+- 🔗: https://ayussh-portfolio.vercel.app/
 - 📧 **Email**: rajaayushwow0@example.com
 - **Demo link:** https://rainfall-prediction-ml.streamlit.app/
 
